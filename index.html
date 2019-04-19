@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Javascript Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<script src = "js/calc.js"></script>
+</head>
+<body>
+
+	<br><br><br>
+
+	<div class = "container">
+		<div class="row">
+			<div class="col-sm-4 col-md-4"></div>
+			<div class="col-sm-4 col-md-4">
+				<h2>Javascript Calculator</h2><br>
+				<div class="calculator">
+					<input class="viewer" id = "viewer" value = "0"></input>
+					<div class="button">
+						<button class = "num" value = "(" onclick = "getValue(this.value)" ><b>(</b></button>
+						<button class = "num" value = ")" onclick = "getValue(this.value)" ><b>)</b></button>
+						<button class = "num" value = "clear" onclick = "getValue(this.value)" ><b>C</b></button>
+						<button class = "num" value = "x" onclick = "getValue(this.value)" ><b>x</b></button>
+					</div>
+					<div class="button">
+						<button class = "num" value = "7" onclick = "getValue(this.value)" ><b>7</b></button>
+						<button class = "num" value = "8" onclick = "getValue(this.value)" ><b>8</b></button>
+						<button class = "num" value = "9" onclick = "getValue(this.value)" ><b>9</b></button>
+						<button class = "num" value = "*" onclick = "getValue(this.value)" ><b>*</b></button>
+					</div>
+					<div class="button">
+						<button class = "num" value = "4" onclick = "getValue(this.value)" ><b>4</b></button>
+						<button class = "num" value = "5" onclick = "getValue(this.value)" ><b>5</b></button>
+						<button class = "num" value = "6" onclick = "getValue(this.value)" ><b>6</b></button>
+						<button class = "num" value = "-" onclick = "getValue(this.value)" ><b>-</b></button>
+					</div>
+					<div class="button">
+						<button class = "num" value = "1" onclick = "getValue(this.value)" ><b>1</b></button>
+						<button class = "num" value = "2" onclick = "getValue(this.value)" ><b>2</b></button>
+						<button class = "num" value = "3" onclick = "getValue(this.value)" ><b>3</b></button>
+						<button class = "num" value = "+" onclick = "getValue(this.value)" ><b>+</b></button>
+					</div>
+					<div class="button">
+						<button class = "num" value = "." onclick = "getValue(this.value)" ><b>.</b></button>
+						<button class = "num" value = "0" onclick = "getValue(this.value)" ><b>0</b></button>
+						<button class = "num" value = "/" onclick = "getValue(this.value)" ><b>/</b></button>
+						<button class = "num" value = "=" onclick = "getValue(this.value)" ><b>=</b></button>
+					</div>
+					<p style = "text-align: center;color:#fff;">Made with love by kundan kumar</p>
+				</div>
+			</div>
+			<div class="col-sm-4 col-md-4"></div>
+		</div>
+	</div>
+
+</body>
+</html>
